@@ -5,8 +5,100 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <h1>asdsad</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header__nav">
+          <a class="logo" href="#!">Freelancer <span>portfolio</span></a>
+
+
+          <button class="dark-mode-btn">
+            <img class="dark-mode-btn__icon" src="./img/icons/sun.svg" alt="">
+            <img class="dark-mode-btn__icon" src="./img/icons/moon.svg" alt="">
+          </button>
+
+
+          <nav class="nav">
+            <ul class="list">
+              <li class="list__item"><a class="list__link list__link--active" href="./project-page.html">Projects</a></li>
+              <li class="list__item"><a class="list__link" href="./skills-page.html">Skills</a></li>
+              <li class="list__item"><a class="list__link" href="./contacts-page.html">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="header-content">
+      <div class="header-content__wrapper">
+        <h1 class="header-content__title">Hi, my name is <span>Abdu</span><br> I'm a frontend developer</h1>
+        <p class="header-content__text">with passion for learning and creating.</p>
+        <a class="header-content__link" href="#!">Download CV</a>
+      </div>
+    </div>
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <h2 class="title">Projects</h2>
+          <ul class="cards">
+            <li class="card">
+              <a class="card__link" href="./project-page.html">
+                <img class="card__img" src="./img/projects/01.jpg" alt="Gaming streaming portal">
+                <h3 class="card__title">Gaming streaming portal</h3>
+              </a>
+            </li>
+            <li class="card">
+              <a class="card__link" href="./project/page.html">
+                <img class="card__img" src="./img/projects/02.jpg" alt="Video service">
+                <h3 class="card__title">Video service</h3>
+              </a>
+            </li>
+            <li class="card">
+              <a class="card__link" href="./project/page.html">
+                <img class="card__img" src="./img/projects/03.jpg" alt="Video portal">
+                <h3 class="card__title">Video portal</h3>
+              </a>
+            </li>
+            <li class="card">
+              <a class="card__link" href="./project/page.html">
+                <img class="card__img" src="./img/projects/04.jpg" alt="Dating app">
+                <h3 class="card__title">Dating app</h3>
+              </a>
+            </li>
+            <li class="card">
+              <a class="card__link" href="./project/page.html">
+                <img class="card__img" src="./img/projects/05.jpg" alt="Landing">
+                <h3 class="card__title">Landing</h3>
+              </a>
+            </li>
+            <li class="card">
+              <a class="card__link" href="./project/page.html">
+                <img class="card__img" src="./img/projects/06.jpg" alt="Gaming community">
+                <h3 class="card__title">Gaming community</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="social">
+          <li class="social__item"><a href="#!"><img src="./img/icons/vk.svg" alt=""></a></li>
+          <li class="social__item"><a href="#!"><img src="./img/icons/instagram.svg" alt=""></a></li>
+          <li class="social__item"><a href="#!"><img src="./img/icons/twitter.svg" alt=""></a></li>
+          <li class="social__item"><a href="#!"><img src="./img/icons/gitHub.svg" alt=""></a></li>
+          <li class="social__item"><a href="#!"><img src="./img/icons/linkedIn.svg" alt=""></a></li>
+        </ul>
+        <p class="copirigt">© 2022 frontend-dev.com</p>
+      </div>
+    </footer>
+
+
+  <script script src="./js/main.js"></script>
 </body>
 </html>
